@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form role="form" onsubmit="signUp(event)" class="form">
+        <label >choose expense</label>
+        <input type="number" id="expense">
+        <label >choose description</label>
+        <input type="text" id="description">
+        <label>choose category</label>
+        <input list="list">
+        <datalist id="list">
+            <option id="datalist" value="Movies" />
+            <option id="datalist"  value="fuel" />
+            <option id="datalist"  value="food" />
+            <option id="datalist" value="electricity"></option>
+        </datalist>
+        <input type="submit" id="'submit"> 
+    </form>
+    <div id="output">
+     
+    </div>
+    <script src="Script.js"> </script>
+</body>
+</html>
